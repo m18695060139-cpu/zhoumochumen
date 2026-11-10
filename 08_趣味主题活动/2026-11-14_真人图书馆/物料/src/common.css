@@ -1,0 +1,6 @@
+:root{--paper:#F4EEDF;--paper2:#EFE6D2;--ink:#2B2925;--soft:#6B655A;--green:#2F5D50;--brick:#A4473A;--line:#C9BFA8;}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--paper);color:var(--ink);font-family:"Noto Serif CJK SC","Noto Color Emoji",serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.sans{font-family:"Noto Sans CJK SC","Noto Color Emoji",sans-serif}
+.stamp{position:absolute;border-radius:50%;border:2px solid var(--brick);color:var(--brick);display:flex;align-items:center;justify-content:center;text-align:center;opacity:.78;transform:rotate(-12deg)}
+.stamp::before{content:"";position:absolute;inset:3px;border-radius:50%;border:1px solid var(--brick)}

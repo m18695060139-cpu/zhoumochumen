@@ -1,0 +1,32 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><style>:root{--paper:#F4EEDF;--paper2:#EFE6D2;--ink:#2B2925;--soft:#6B655A;--green:#2F5D50;--brick:#A4473A;--line:#C9BFA8;}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--paper);color:var(--ink);font-family:"Noto Serif CJK SC","Noto Color Emoji",serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.sans{font-family:"Noto Sans CJK SC","Noto Color Emoji",sans-serif}
+.stamp{position:absolute;border-radius:50%;border:2px solid var(--brick);color:var(--brick);display:flex;align-items:center;justify-content:center;text-align:center;opacity:.78;transform:rotate(-12deg)}
+.stamp::before{content:"";position:absolute;inset:3px;border-radius:50%;border:1px solid var(--brick)}
+
+@page{size:105mm 148mm;margin:0} 
+.a6{width:105mm;height:148mm;position:relative;overflow:hidden;background:var(--paper);padding:9mm 9mm 8mm 13mm}
+.a6::before{content:"";position:absolute;left:8.5mm;top:0;bottom:0;border-left:1px solid var(--brick);opacity:.55}
+.hd{display:flex;justify-content:space-between;align-items:baseline;font-size:2.7mm;color:var(--green);letter-spacing:.3mm;border-bottom:1.4px solid var(--green);padding-bottom:1.6mm}
+.hd b{font-size:3.4mm;letter-spacing:.8mm}
+.lab{font-size:2.6mm;color:var(--green);margin-top:3.6mm;letter-spacing:.3mm}
+.lab small{color:var(--soft);font-size:2.3mm;margin-left:1mm}
+.title{font-size:7mm;font-weight:700;margin-top:1mm;display:flex;align-items:flex-end;height:10mm}
+.title .gap{flex:1;border-bottom:1px solid var(--line);margin:0 1mm 1.6mm;height:1px}
+.rec{font-size:3.6mm;margin-top:2.6mm;display:flex;align-items:flex-end}
+.rec .gap{flex:1;border-bottom:1px solid var(--line);margin:0 1mm .9mm;height:1px}
+.ln{height:7.6mm;border-bottom:1px solid var(--line);font-size:3.3mm;line-height:7.6mm;color:var(--green)}
+.ft{position:absolute;left:13mm;right:9mm;bottom:6mm;font-size:2.3mm;color:var(--soft);display:flex;justify-content:space-between}
+.fill{color:var(--green);font-weight:500}
+.ex{position:absolute;top:5.5mm;left:50%;transform:translateX(-50%);background:var(--brick);color:#fff;font-size:2.4mm;padding:.4mm 2.5mm;border-radius:1mm;letter-spacing:.5mm}
+</style></head><body><div class="a6"><div class="ex">示例 · 仅供参考</div>
+<div class="hd"><b>书目卡</b><span>周末出门 · 真人图书馆　No.示例</span></div>
+<div class="lab">书名<small>自己取，一段经历的标签</small></div><div class="title"><span>《</span><span class="fill" style="padding:0 2mm">转行</span><span>》</span><span class="gap" style="border:none"></span></div>
+<div class="rec"><span>他推荐：《</span><span class="fill" style="padding:0 1mm">本人推荐</span><span>》</span><span class="gap" style="border:none"></span></div><div class="lab" style="margin-top:.6mm"><small style="margin:0">可选。也可以写带来的照片或小物件</small></div>
+<div class="lab">简介<small>用「我」来写，一两句也行</small></div><div class="ln">（示例）我在教培待过一段时间，</div><div class="ln">见过招生和课堂两端。</div><div class="ln">后来换了一条路，到现在还在找方向。</div><div class="ln"></div>
+<div class="lab">愿意被问的话题</div><div class="ln">为什么进来、后来怎么看这份工作，</div><div class="ln">如果重新选会怎样。</div>
+<div class="lab">这轮先不聊</div><div class="ln">具体机构的名字、收入。</div>
+<div class="ft"><span>每本约 35 分钟 · 全场围坐一起借阅</span><span>2026.11.14</span></div>
+<div class="stamp" style="width:17mm;height:17mm;bottom:12mm;right:9mm"><div style="line-height:1.25"><div style="font-size:2.0mm;letter-spacing:.5mm">周末出门</div><div style="font-size:3.4mm;font-weight:700">借阅</div><div style="font-size:1.7mm">宜昌</div></div></div>
+</div></body></html>

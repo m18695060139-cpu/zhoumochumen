@@ -1,0 +1,45 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><style>:root{--paper:#F4EEDF;--paper2:#EFE6D2;--ink:#2B2925;--soft:#6B655A;--green:#2F5D50;--brick:#A4473A;--line:#C9BFA8;}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--paper);color:var(--ink);font-family:"Noto Serif CJK SC","Noto Color Emoji",serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.sans{font-family:"Noto Sans CJK SC","Noto Color Emoji",sans-serif}
+.stamp{position:absolute;border-radius:50%;border:2px solid var(--brick);color:var(--brick);display:flex;align-items:center;justify-content:center;text-align:center;opacity:.78;transform:rotate(-12deg)}
+.stamp::before{content:"";position:absolute;inset:3px;border-radius:50%;border:1px solid var(--brick)}
+
+@page{size:105mm 148mm;margin:0} 
+.a6{width:105mm;height:148mm;position:relative;overflow:hidden;background:var(--paper);padding:9mm 9mm 8mm 13mm}
+.a6::before{content:"";position:absolute;left:8.5mm;top:0;bottom:0;border-left:1px solid var(--brick);opacity:.55}
+.hd{display:flex;justify-content:space-between;align-items:baseline;font-size:2.7mm;color:var(--green);letter-spacing:.3mm;border-bottom:1.4px solid var(--green);padding-bottom:1.6mm}
+.hd b{font-size:3.4mm;letter-spacing:.8mm}
+.lab{font-size:2.6mm;color:var(--green);margin-top:3.6mm;letter-spacing:.3mm}
+.lab small{color:var(--soft);font-size:2.3mm;margin-left:1mm}
+.title{font-size:7mm;font-weight:700;margin-top:1mm;display:flex;align-items:flex-end;height:10mm}
+.title .gap{flex:1;border-bottom:1px solid var(--line);margin:0 1mm 1.6mm;height:1px}
+.rec{font-size:3.6mm;margin-top:2.6mm;display:flex;align-items:flex-end}
+.rec .gap{flex:1;border-bottom:1px solid var(--line);margin:0 1mm .9mm;height:1px}
+.ln{height:7.6mm;border-bottom:1px solid var(--line);font-size:3.3mm;line-height:7.6mm;color:var(--green)}
+.ft{position:absolute;left:13mm;right:9mm;bottom:6mm;font-size:2.3mm;color:var(--soft);display:flex;justify-content:space-between}
+.fill{color:var(--green);font-weight:500}
+.ex{position:absolute;top:5.5mm;left:50%;transform:translateX(-50%);background:var(--brick);color:#fff;font-size:2.4mm;padding:.4mm 2.5mm;border-radius:1mm;letter-spacing:.5mm}
+.sheet{width:210mm;height:297mm;display:grid;grid-template-columns:105mm 105mm;grid-template-rows:148.5mm 148.5mm;position:relative}
+.sheet .a6{height:148.5mm}
+.cut{position:absolute;border:0 dashed #9a917e}
+.cut.v{left:105mm;top:0;bottom:0;border-left-width:.3mm}.cut.h{top:148.5mm;left:0;right:0;border-top-width:.3mm}
+.pg{page-break-after:always}
+table{width:100%;border-collapse:collapse;margin-top:2.4mm;font-size:2.8mm}
+th{color:var(--green);font-weight:500;text-align:left;border-bottom:1.2px solid var(--green);padding:.8mm 1mm;font-size:2.5mm}
+td{border-bottom:1px solid var(--line);height:7.6mm;padding:0 1mm}
+td.d{width:20mm;color:var(--brick);font-size:2.7mm;border-right:1px solid var(--line)}
+.ck{font-size:2.8mm;margin-top:3mm;display:flex;gap:4mm}
+.ck span::before{content:"";display:inline-block;width:2.6mm;height:2.6mm;border:1px solid var(--ink);margin-right:1mm;vertical-align:-.3mm}
+.ln.r{height:8.6mm}
+.hole{position:absolute;top:3.4mm;left:50%;width:7mm;height:2.2mm;margin-left:-3.5mm;border-radius:1.2mm;border:1px solid var(--line)}
+</style></head><body><div class="a6"><div class="hole"></div>
+<div class="hd"><b>还书卡</b><span>周末出门 · 真人图书馆</span></div>
+<table><tr><th>日期</th><th>借阅的书名</th></tr><tr><td class="d">2026.11.14</td><td>第一本　《　　　　　　　　》</td></tr><tr><td class="d">2026.11.14</td><td>第二本　《　　　　　　　　》</td></tr><tr><td class="d">2026.11.14</td><td>第三本　《　　　　　　　　》</td></tr></table>
+<div class="lab">今天借到的一句话</div>
+<div class="ln r"></div><div class="ln r"></div><div class="ln r"></div><div class="ln r"></div>
+<div class="lab">想对其中一本书说</div>
+<div class="ln" style="color:var(--ink)">给《　　　　》：</div><div class="ln"></div>
+<div class="ck"><span>我带走这张卡</span><span>留给这本书</span></div>
+<div class="stamp" style="width:19mm;height:19mm;bottom:11mm;right:10mm"><div style="line-height:1.25"><div style="font-size:2.3mm;letter-spacing:.5mm">周末出门</div><div style="font-size:3.8mm;font-weight:700">已还</div><div style="font-size:1.9mm">2026.11.14</div></div></div>
+</div></body></html>

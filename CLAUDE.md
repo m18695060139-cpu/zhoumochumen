@@ -47,4 +47,4 @@
 
 ## 关于用户
 
-社群主理人，在宜昌做线下成长型社群，三条活动线是读书会、AI 研究所、成长疗愈。用中文沟通；偏好直接动手，少问多做。飞书知识库：https://my.feishu.cn/wiki/CqC2wgQotiPQvxkAgfFcQoTsnIf（导出 PDF 需要登录，页面多时由用户自己导）。
+社群主理人，在宜昌做线下成长型社群，四条活动线是读书会、AI 研究所、成长疗愈、趣味主题活动（`08_趣味主题活动/`）。用中文沟通；偏好直接动手，少问多做。飞书知识库：https://my.feishu.cn/wiki/CqC2wgQotiPQvxkAgfFcQoTsnIf（导出 PDF 需要登录，页面多时由用户自己导）。
