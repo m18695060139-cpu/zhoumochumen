@@ -1,5 +1,5 @@
 import os, pathlib
-OUT=pathlib.Path('/workspace/zhoumo/物料'); SRC=OUT/'src'
+OUT=pathlib.Path(__file__).resolve().parent.parent; SRC=OUT/'src'  # 物料/ 目录，跟着仓库走
 CSS=(SRC/'common.css').read_text()
 def page(body, w, h, extra=''):
     return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><style>{CSS}
